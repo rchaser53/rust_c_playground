@@ -8,5 +8,8 @@ clear:
 build: clear
 	${CC} test.c -o hoge.out
 
+build-lib: clear
+	${CC} -shared test.c -o libtest.so
+
 run: build
 	./hoge.out

@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "test.h"
 
 int nyan(int a) {
   return a;
