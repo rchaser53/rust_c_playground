@@ -1,0 +1,7 @@
+[package]
+authors = ["rchaser53 <tayoshizawa29@gmail.com>"]
+name = "rust_c"
+version = "0.1.0"
+
+[dependencies]
+libc = "0.2.34"
